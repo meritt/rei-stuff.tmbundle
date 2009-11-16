@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>protected \$_${1/./\l$0/};
+
+public function set${1:Name}(${2:\$value})
+{
+    \$this-&gt;_${1/./\l$0/} = ${3:(${4:string}) }$2;
+
+    return \$this;
+}
+
+public function get$1()
+{
+    return \$this-&gt;_${1/./\l$0/};
+}$0</string>
+	<key>name</key>
+	<string>Setter/Getter</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>var</string>
+	<key>uuid</key>
+	<string>F08E9E4E-40E0-4CB9-AD86-269E08A5ABE1</string>
+</dict>
+</plist>
